@@ -1,0 +1,11 @@
+{
+  "name": "vs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "handlebars": "^4.7.6",
+    "jquery": "^3.5.1",
+    "jquery-ui-dist": "^1.12.1"
+  }
+}
