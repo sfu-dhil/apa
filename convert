@@ -3,4 +3,4 @@
 csv=$1
 json=$2
 
-csvtojson $csv | jq '.' | tee $json
+csvtojson $csv | jq '.' | sponge $json

@@ -16,4 +16,4 @@ foreach($json as $i => $v) {
 }
 
 $data = json_encode($json);
-file_put_contents($filename, $data);
+echo $data;
