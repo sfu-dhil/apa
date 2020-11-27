@@ -3,5 +3,4 @@
 csv=$1
 json=$2
 
-jq -R -s -f csv2json.rb $csv | tee $json
-
+csvtojson $csv | jq '.' | tee $json

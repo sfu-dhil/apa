@@ -1,158 +1,132 @@
 [
   {
-    "﻿Video": "\"Imprint II",
-    "Section": "Camera A\"",
-    "Title": "xCamera A\"",
-    "Start": "",
-    "Startx": "Colour Bars",
-    "End": "00:00:00",
-    "URL": "00:00:29",
-    "Description": "https://researchdata.sfu.ca/islandora/object/islandora:10909",
-    "Image": "",
-    "Imagex": ""
+    "Video": "Imprint II, Camera A",
+    "Section": "",
+    "Title": "Colour Bars",
+    "Start": "00:00:00",
+    "End": "00:00:29",
+    "URL": "https://researchdata.sfu.ca/islandora/object/islandora:10909",
+    "Description": "",
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "The Audience",
     "Start": "00:00:30",
-    "Startx": "00:02:24",
-    "End": "",
+    "End": "00:02:24",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "Forgotten Memories",
     "Start": "00:02:24",
-    "Startx": "00:09:00",
-    "End": "",
+    "End": "00:09:00",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "The Stranger",
     "Start": "00:09:01",
-    "Startx": "00:11:56",
-    "End": "",
+    "End": "00:11:56",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "The Unwelcome",
     "Start": "00:11:57",
-    "Startx": "00:12:38",
-    "End": "",
+    "End": "00:12:38",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "Confusing Memories",
     "Start": "00:12:39",
-    "Startx": "00:16:00",
-    "End": "",
+    "End": "00:16:00",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "The Emissary",
     "Start": "00:16:01",
-    "Startx": "00:20:17",
-    "End": "",
+    "End": "00:20:17",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "The Denial",
     "Start": "00:20:18",
-    "Startx": "00:25:19",
-    "End": "",
+    "End": "00:25:19",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "Acceptance",
     "Start": "00:25:20",
-    "Startx": "00:30:27",
-    "End": "",
+    "End": "00:30:27",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "Images from the past",
     "Start": "00:30:28",
-    "Startx": "00:34:12",
-    "End": "",
+    "End": "00:34:12",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "Re-membering",
     "Start": "00:34:13",
-    "Startx": "00:40:25",
-    "End": "",
+    "End": "00:40:25",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "Re-cognising",
     "Start": "00:40:26",
-    "Startx": "00:44:32",
-    "End": "",
+    "End": "00:44:32",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   },
   {
-    "﻿Video": "",
+    "Video": "",
     "Section": "",
     "Title": "Curtain call",
     "Start": "00:40:26",
-    "Startx": "00:44:32",
-    "End": "",
+    "End": "00:44:32",
     "URL": "",
     "Description": "",
-    "Image": "x",
-    "Imagex": null
+    "Image": ""
   }
 ]
