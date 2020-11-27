@@ -109,6 +109,7 @@
   function playlistDrop(event) {
     event.preventDefault();
     let data = event.dataTransfer.getData('text/html');
+    data = data.replace('<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">', '');
     let element = document.createRange().createContextualFragment(data).childNodes.item(0);
     element.setAttribute('draggable', false);
     element.insertAdjacentHTML('beforeend', '<button class="up">Up</button><button class="down">Down</button><button class="remove">Remove</button>');
