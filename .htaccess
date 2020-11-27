@@ -1,0 +1,6 @@
+Options -Indexes
+RedirectMatch 403 /bin
+RedirectMatch 403 /.yarnrc
+RedirectMatch 403 /.htaccess
+RedirectMatch 403 /README.md
+RedirectMatch 403 /package.json
