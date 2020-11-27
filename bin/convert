@@ -1,0 +1,6 @@
+#!/bin/sh
+
+csv=$1
+json=$2
+
+csvtojson $csv | jq '.' | sponge $json
