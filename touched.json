@@ -1,89 +1,89 @@
 [
   {
-    "start": "00:00:00",
-    "end": "00:00:55",
-    "section": "The Creation",
-    "image": "touched_0.png",
-    "title": "Creation"
+    "Start": "00:00:00",
+    "End": "00:00:55",
+    "Section": "The Creation",
+    "Image": "public/screenshot/touched/touched_0.png",
+    "Title": "Creation"
   },
   {
-    "start": "00:00:56",
-    "end": "00:09:04",
-    "section": "The Creation",
-    "image": "touched_1.png",
-    "title": "The Ocean"
+    "Start": "00:00:56",
+    "End": "00:09:04",
+    "Section": "The Creation",
+    "Image": "public/screenshot/touched/touched_1.png",
+    "Title": "The Ocean"
   },
   {
-    "start": "00:09:05",
-    "end": "00:12:04",
-    "section": "The Creation",
-    "image": "touched_2.png",
-    "title": "He/She/They"
+    "Start": "00:09:05",
+    "End": "00:12:04",
+    "Section": "The Creation",
+    "Image": "public/screenshot/touched/touched_2.png",
+    "Title": "He/She/They"
   },
   {
-    "start": "00:12:05",
-    "end": "00:13:51",
-    "section": "The Creation",
-    "image": "touched_3.png",
-    "title": "The Mirror"
-  },
-
-  {
-    "start": "00:13:52",
-    "end": "00:19:29",
-    "section": "Maintenance",
-    "image": "touched_4.png",
-    "title": "The Machine"
-  },
-  {
-    "start": "00:19:30",
-    "end": "00:23:06",
-    "section": "Maintenance",
-    "image": "touched_5.png",
-    "title": "Offerings"
-  },
-  {
-    "start": "00:23:07",
-    "end": "00:27:03",
-    "section": "Maintenance",
-    "image": "touched_6.png",
-    "title": "Trapped"
-  },
-  {
-    "start": "00:27:04",
-    "end": "00:31:50",
-    "image": "touched_7.png",
-    "section": "Maintenance",
-    "title": "The Calling"
-  },
-  {
-    "start": "00:27:04",
-    "end": "00:31:50",
-    "image": "touched_8.png",
-    "section": "Maintenance",
-    "title": "The Reckoning"
-  },
-  {
-    "start": "00:31:51",
-    "end": "00:34:50",
-    "image": "touched_9.png",
-    "section": "Maintenance",
-    "title": "The Mirror II"
+    "Start": "00:12:05",
+    "End": "00:13:51",
+    "Section": "The Creation",
+    "Image": "public/screenshot/touched/touched_3.png",
+    "Title": "The Mirror"
   },
 
   {
-    "start": "00:36:52",
-    "end": "00:37:50",
-    "section": "Destruction & Recreation",
-    "image": "touched_10.png",
-    "title": "Destruction"
+    "Start": "00:13:52",
+    "End": "00:19:29",
+    "Section": "Maintenance",
+    "Image": "public/screenshot/touched/touched_4.png",
+    "Title": "The Machine"
   },
   {
-    "start": "00:37:51",
-    "end": "00:42:31",
-    "section": "Destruction & Recreation",
-    "image": "touched_11.png",
-    "title": "Recreation"
+    "Start": "00:19:30",
+    "End": "00:23:06",
+    "Section": "Maintenance",
+    "Image": "public/screenshot/touched/touched_5.png",
+    "Title": "Offerings"
+  },
+  {
+    "Start": "00:23:07",
+    "End": "00:27:03",
+    "Section": "Maintenance",
+    "Image": "public/screenshot/touched/touched_6.png",
+    "Title": "Trapped"
+  },
+  {
+    "Start": "00:27:04",
+    "End": "00:31:50",
+    "Image": "public/screenshot/touched/touched_7.png",
+    "Section": "Maintenance",
+    "Title": "The Calling"
+  },
+  {
+    "Start": "00:27:04",
+    "End": "00:31:50",
+    "Image": "public/screenshot/touched/touched_8.png",
+    "Section": "Maintenance",
+    "Title": "The Reckoning"
+  },
+  {
+    "Start": "00:31:51",
+    "End": "00:34:50",
+    "Image": "public/screenshot/touched/touched_9.png",
+    "Section": "Maintenance",
+    "Title": "The Mirror II"
+  },
+
+  {
+    "Start": "00:36:52",
+    "End": "00:37:50",
+    "Section": "Destruction & Recreation",
+    "Image": "public/screenshot/touched/touched_10.png",
+    "Title": "Destruction"
+  },
+  {
+    "Start": "00:37:51",
+    "End": "00:42:31",
+    "Section": "Destruction & Recreation",
+    "Image": "public/screenshot/touched/touched_11.png",
+    "Title": "Recreation"
   }
 
 ]

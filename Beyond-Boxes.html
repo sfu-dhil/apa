@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <title>Artistic Performance Archive</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href='public/yarn/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='public/css/jumbotron.css' rel='stylesheet'>
+    <link href='public/yarn/jquery-ui-dist/jquery-ui.theme.min.css'>
+
+    <script src='public/yarn/jquery/dist/jquery.min.js'></script>
+    <script src='public/yarn/handlebars/dist/handlebars.min.js'></script>
+    <script src='public/yarn/jquery-ui-dist/jquery-ui.min.js'></script>
+
+    <script src='public/js/vstreamer.js'></script>
+    <link href='public/css/vstreamer.css' rel='stylesheet'>
+
+    <script id='screen-template' type='text/x-handlebars-template'>
+        <div class='media clip' data-start='{{ Start }}' data-end='{{ End }}'>
+          <div class='media-left'>
+            <a href='#'>
+              <img class='media-object' src='{{ Image }}' alt='{{ Section }} {{ Title }}'>
+            </a>
+          </div>
+          <div class='media-body'>
+            <h4 class='media-heading'>{{ Section }} {{ Title }}</h4>
+            <p>{{ Start }} - {{ End }}</p>
+          </div>
+        </div>
+    </script>
+  </head>
+
+  <body>
+    <div class='container'>
+      <div class='header clearfix'>
+        <h3 class='text-muted'>Artistic Performance Archive</h3>
+      </div>
+
+      <div class='jumbotron'>
+        <h1>Beyond Boxes</h1>
+        <p>Short Documentary Film, part of the Touched Project.</p>
+        <div class='embed-responsive embed-responsive-4by3'>
+          <video controls id='video'
+                 data-metadata='Beyond-Boxes.json'
+                 src='https://researchdata.sfu.ca/islandora/object/islandora:10906/datastream/OBJ/view'>
+          </video>
+        </div>
+      </div>
+
+      <p>Drag and drop scenes to the playlist to remix the video.</p>
+      <div class='row'>
+        <div class='col-sm-6'>
+          <div class='panel panel-default'>
+            <div class='panel-heading'>Scenes</div>
+            <div class='panel-body' id='scenes'></div>
+          </div>
+        </div>
+
+        <div class='col-sm-6'>
+          <div class='panel panel-default'>
+            <div class='panel-heading'>Playlist</div>
+            <div class='panel-body' id='playlist'></div>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- /container -->
+
+    <footer class='footer'>
+      <div class='container'>
+        <p>&copy; 2020.</p>
+      </div>
+    </footer>
+
+  </body>
+</html>

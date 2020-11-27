@@ -14,7 +14,6 @@
     let template = Handlebars.compile(templateText);
     let scenes = document.getElementById('scenes');
     data.forEach(d => {
-      d.image = `public/screenshot/touched/${d.image}`;
       scenes.insertAdjacentHTML('beforeend', template(d));
     });
   }
@@ -191,15 +190,28 @@
     element.addEventListener('pause', videoStop);
   }
 
-  /**
-   * Fetch is super!
-   */
-  fetch('touched.json')
+  function ready(fn) {
+    if(document.readyState === 'complete' || document.readyState === 'interactive') {
+      setTimeout(fn, 1);
+    } else {
+      document.addEventListener('DOMContentLoaded', fn);
+    }
+  }
+
+  function initialize() {
+    let metadataUrl = document.querySelector('#video').dataset.metadata;
+
+    /**
+     * Fetch is super!
+     */
+    fetch(metadataUrl)
     .then(response => response.json())
     .then(loadJson)
     .then(dropInit)
     .then(dragInit)
-    .then(videoInit)
-    ;
+    .then(videoInit);
+  }
+
+  ready(initialize);
 
 })();

@@ -13,25 +13,9 @@
     <link href='public/yarn/jquery-ui-dist/jquery-ui.theme.min.css'>
 
     <script src='public/yarn/jquery/dist/jquery.min.js'></script>
-    <script src='public/yarn/handlebars/dist/handlebars.min.js'></script>
-    <script src='public/yarn/jquery-ui-dist/jquery-ui.min.js'></script>
+    <script src='public/yarn/bootstrap/dist/js/bootstrap.min.js'></script>
 
-    <script src='public/js/vstreamer.js'></script>
     <link href='public/css/vstreamer.css' rel='stylesheet'>
-
-    <script id='screen-template' type='text/x-handlebars-template'>
-        <div class='media clip' data-start='{{ start }}' data-end='{{ end }}'>
-          <div class='media-left'>
-            <a href='#'>
-              <img class='media-object' src='{{ image }}' alt='{{ section }} {{ title }}'>
-            </a>
-          </div>
-          <div class='media-body'>
-            <h4 class='media-heading'>{{ section }} {{ title }}</h4>
-            <p>{{ start }} - {{ end }}</p>
-          </div>
-        </div>
-    </script>
   </head>
 
   <body>
@@ -40,36 +24,87 @@
         <h3 class='text-muted'>Artistic Performance Archive</h3>
       </div>
 
-      <div class='jumbotron'>
-        <h1>Touched</h1>
-        <p>This work simulates the cyclic process of creation and destruction.</p>
-        <div class='embed-responsive embed-responsive-4by3'>
-          <video controls id='video' src='https://researchdata.sfu.ca/islandora/object/islandora:10880/datastream/OBJ/view'></video>
-        </div>
-      </div>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        </ol>
 
-      <p>Drag and drop scenes to the playlist to remix the video.</p>
-      <div class='row'>
-        <div class='col-sm-6'>
-          <div class='panel panel-default'>
-            <div class='panel-heading'>Scenes</div>
-            <div class='panel-body' id='scenes'></div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <a href='Beyond-Boxes.html'>
+              <img src="public/screenshot/Beyond-Boxes/Beyond-Boxes_1.png" alt="Beyond Boxes">
+            </a>
+            <div class="carousel-caption">
+              <h3>Beyond Boxes</h3>
+              <p>Short Documentary Film, part of the Touched Project.</p>
+            </div>
           </div>
-        </div>
-
-        <div class='col-sm-6'>
-          <div class='panel panel-default'>
-            <div class='panel-heading'>Playlist</div>
-            <div class='panel-body' id='playlist'></div>
+          <div class="item">
+            <a href='Imprint-2a.html'>
+              <img src="public/screenshot/Imprint-2a/Imprint-2a_2.png" alt="Imprint II Camera A">
+            </a>
+            <div class="carousel-caption">
+              <h3>Imprint II Camera A</h3>
+              <p>Imprint II Production, Camera A, The Touched Project</p>
+            </div>
           </div>
-        </div>
-      </div>
 
-      <footer class='footer'>
-        <p>&copy; 2020.</p>
-      </footer>
+          <div class="item">
+            <a href='Imprint-2b.html'>
+              <img src="public/screenshot/Imprint-2b/Imprint-2b_2.png" alt="Imprint II Camera b">
+            </a>
+            <div class="carousel-caption">
+              <h3>Imprint II Camera B</h3>
+              <p>Imprint II Production, Camera B, The Touched Project</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <a href='T2-Echo.html'>
+              <img src="public/screenshot/T2-Echo/T2-Echo_6.png" alt="T2 Echo Rehearsal">
+            </a>
+            <div class="carousel-caption">
+              <h3>T2 Echo Rehearsal</h3>
+              <p>Video of performance from The Touched Project.</p>
+            </div>
+          </div>
+
+          <div class="item">
+            <a href='touched.html'>
+              <img src="public/screenshot/touched/touched_1.png" alt="Touched">
+            </a>
+            <div class="carousel-caption">
+              <h3>Touched</h3>
+              <p>This work simulates the cyclic process of creation and destruction.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
 
     </div> <!-- /container -->
+
+    <footer class='footer'>
+      <div class='container'>
+      <p>&copy; 2020.</p>
+      </div>
+    </footer>
 
   </body>
 </html>
